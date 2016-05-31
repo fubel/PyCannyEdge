@@ -3,7 +3,7 @@ PythonCannyEdge
 
 This repository contains an **educational** implementation of the Canny Edge Detector in Python 2.7. I wrote this to generate plots for my Bachelor's thesis about Numerical Edge Detection and not for productive applications. 
 
-The algorithm was split in it's 5 essential parts. You can find the corresponding functions in [``CannyEdge/core.py``](CannyEdge/core.py). 
+The algorithm was splitted in it's 5 essential parts. You can find the corresponding functions in [``CannyEdge/core.py``](CannyEdge/core.py). 
 
 
 Usage
