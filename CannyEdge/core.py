@@ -62,12 +62,7 @@ def gradient_intensity(img):
     G = np.hypot(Ix, Iy)
     D = np.arctan2(Iy, Ix)
     return (G, D)
-
-def max_neighbours(values):
-    if values[1] == max(values):
-        return values[1]
-    else:
-        return np.int32(0)
+    
 
 def suppression(img, D):
     """ Step 3: Non-maximum suppression
