@@ -109,7 +109,7 @@ def threshold(img, t, T):
     Args:
         img: Numpy ndarray of image to be processed (suppressed image)
         t: lower threshold
-        T: uppder threshold
+        T: upper threshold
 
     Return:
         img: Thresholdes image
@@ -142,7 +142,7 @@ def tracking(img, weak, strong=255):
     Checks if edges marked as weak are connected to strong edges.
 
     Note that there are better methods (blob analysis) to do this,
-    but they are more difficult to unterstand. This just checks neighbour
+    but they are more difficult to understand. This just checks neighbour
     edges.
 
     Also note that for perfomance reasons you wouldn't do this kind of tracking
