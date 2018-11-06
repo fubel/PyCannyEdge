@@ -1,7 +1,7 @@
 PythonCannyEdge
 ----------------------
 
-![[GitHub release](https://img.shields.io/github/release/fubel/PyCannyEdge.svg)](https://github.com/fubel/PyCannyEdge/releases/tag/v1.0)
+[![GitHub release](https://img.shields.io/github/release/fubel/PyCannyEdge.svg)](https://github.com/fubel/PyCannyEdge/releases/tag/v1.0)
 
 This repository contains an **educational** implementation of the Canny Edge Detector in Python 2.7. I wrote this to generate plots for my Bachelor's thesis about Numerical Edge Detection and not for productive applications. 
 
